@@ -1,0 +1,22 @@
+<h2>What day is it?</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Today the whole world uses the Coordinated Universal Time (UTC) to distinguish between the time zones. The UTC is considered to be the 0, and the rest of the time zones are expressed using positive or negative offsets from the UTC. For instance, London is in the zone UTC+00:00 (or GMT) and Moscow is in the zone UTC+3:00. </p> 
+  <p>There are 14 positive offsets (from UTC+1:00 to UTC+14:00) and 12 negative offsets (from UTC-12:00 to UTC-1:00). This also means that at a particular hour, three calendar days are observed on the planet. For example, if now it's Sunday, 11:30 in the morning in London, then in the time zone with +14:00 offset people are already living in the "next day", Monday, because their time is 14 hours ahead of London. </p> 
+  <p>Your task is stated as follows:</p> 
+  <ul> 
+   <li>the <strong>reference time point</strong> is <strong>Tuesday, 10:30</strong> in the morning in London (UTC+00:00)</li> 
+   <li>read the input string containing the number and the sign of this number (for example, +4, -10). Note, however, that there will be <strong>no </strong>sign if the number is 0. The number is always an <strong>integer</strong>.</li> 
+   <li>this number is the <strong>offset </strong>for some time zone.</li> 
+   <li>your program should calculate the <strong>day of the week</strong> in the time zone for which you were given the <strong>offset</strong>. The <strong>reference time point </strong>for your calculations is mentioned above. </li> 
+   <li><strong>output </strong>the day of the week<strong> </strong>in the given time zone.</li> 
+  </ul> 
+  <p>For example, if the input is -11, then, relatively to London, it's "the day before" in this time zone, that is, it's still <strong>Monday</strong>, but if the input is +3, then it's <strong>Tuesday</strong>, the same as in London. </p> 
+  <p><strong>The input format:</strong></p> 
+  <p>The value of offset with the sign (e.g. +3 or -9).</p> 
+  <p><strong>The output format:</strong></p> 
+  <p>The day of the week in that timezone. </p>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">0</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Tuesday</code></pre><br><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">-11</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Monday</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<a href="https://hyperskill.org/learn/step/5926">Show topic summary</a>

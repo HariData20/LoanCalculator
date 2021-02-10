@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # the variable "args" is already defined
+    my_list = []  # your code here
+
+    print(my_list)
+
+    # further code of the script "process_four_numbers.py"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7988
+status: Failed
+feedback:
+  message: |
+    Failed. Wrong answer
+  time: Wed, 07 Oct 2020 22:42:28 UTC
+record: -1
